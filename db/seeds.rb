@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Recipe.create(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
-Recipe.create(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
-Recipe.create(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
-Recipe.create(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
+Recipe.find_or_create_by(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
+Recipe.find_or_create_by(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
+Recipe.find_or_create_by(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
+Recipe.find_or_create_by(name: 'Food', ingredients: 'Ingredients', cook_time: '45min', img: '')
