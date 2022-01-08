@@ -22,5 +22,7 @@ Recipe.find_or_create_by(holiday_type: 'Cinco de mayo', name: 'Mexican Corn Sala
 Recipe.find_or_create_by(holiday_type: 'Thanks Giving', name: 'Sweet potatoe casserole')
 
 user = User.create(email: 'angelb203@icloud.com', username: "angel", password_digest: "password")
+Activity.find_or_create_by(name: 'skiing', description: 'perfect for winter holidays, buy skiing gear and find your nearest skiing mountain and give it a shot')
+Activity.find_or_create_by(name: 'snow boarding', description: 'perfect for winter holidays, buy snow boarding  gear and find your nearest skiing mountain and give it a shot')
 
 # savedRecipeIdeas = SavedRecipeIdea.create(recipe_id: 1, user_id: 1)
